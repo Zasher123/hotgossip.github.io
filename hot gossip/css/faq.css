@@ -1,0 +1,210 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* nav bar */
+nav{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    padding: 15px;
+
+}
+.logo {
+    display: inline-block;
+    justify-self: center;
+    width: 75px;
+    height: 60px;
+    
+}
+
+.nav-bar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 5px;
+}
+
+.nav-bar li  {
+    display: inline-block;
+    Padding: 5px 15px;
+    text-align: center;
+    
+}
+
+.nav-bar a{
+    color: #fffcfc;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.nav-bar a:hover{
+    color: rgb(25, 173, 173);
+    transition: 0.5s;
+}
+.faq-container {
+    justify-content: center;
+    margin: auto;
+    margin-top: 100px;
+    max-width: 1100px;
+    margin-bottom: 70px;
+    font-family: Arial, sans-serif;
+    border: 1px solid #111;
+    border-radius: 5px;
+  }
+  h1,#P2{
+    margin-top: 80px;
+    text-align: center;
+  }
+
+  #P2{
+    font-size: 18px;;
+  }
+  .faq-item {
+    margin: 80px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    
+  }
+  
+  .faq-question {
+    background-color: white;
+    border: 1px solid #111;
+    width: 100%;
+    text-align: left;   
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .faq-answer {
+    display: none;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #111;
+    border-top: 2px solid #c8d4e1;
+    font-size: 16px;
+    
+    
+  }
+  
+  .faq-question.active + .faq-answer {
+    display: block;
+  }
+
+  .sign {
+    font-size: 20px;
+    margin-left: auto; /* Align the sign to the right */
+  }
+
+
+/* Footer elements */
+
+footer{
+    border-radius: 5px;
+    border: 1px solid black;
+    position: relative;
+    
+}
+
+.logo1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 60px;
+    margin: 5px auto; /* Centering the logo horizontally */
+}
+
+
+
+footer ul{
+    display: flex;
+    align-items: center;
+    
+}
+
+footer ul li a{   
+    justify-content: space-between;
+    list-style-type: none;   
+    margin: 10px;
+}
+
+  footer ul {
+    justify-content: center;
+    list-style-type: none;
+    
+  }
+  
+  
+  footer ul li a {
+    color: #111;
+    text-decoration: none;
+    font-size: 1.1em;
+    opacity: 0.7;
+    transition: 0.5s;
+    
+  }
+
+ footer a:hover{
+    color: rgb(234, 9, 9);
+}
+
+/* social media icons */
+.social-icons {
+    display: flex;  /* Aligns the social media icons horizontally */
+    gap: 10px;  /* Adds space between the icons */
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.icon-box3 {
+    width: 30px;  /* Set a fixed width */
+    height: 30px;  /* Set a fixed height */
+    justify-content: center;
+    align-items: center;
+    background-color: #bcd1e8;  /* Background color for the icon box */
+    color: white;  /* Icon color */
+    border-radius: 5px;  
+    transition: 0.3s ease;  /* Smooth transition on hover */
+}
+
+.icon-box3 a {
+    display: flex;  /* Ensures the icon itself is treated as a flex item */
+    justify-content: center;  /* Horizontally center the icon */
+    align-items: center;  /* Vertically center the icon */
+    color: white;  
+    font-size: 20px;  
+    text-decoration: none;  
+    width: 100%;  /* Make sure the anchor takes full width of the icon box */
+    height: 100%; 
+}
+
+/*  Copy right and Terms & Conditions */
+  .footer-bottom{
+    border: 1px solid #ccc; 
+   border-radius: 5px; 
+   color: #fffcfc;
+   padding: 10px;
+   background-color: rgb(3, 3, 3); 
+   text-align: center;
+  
+  }
+
+
+  .footer-links {
+    margin-top: 5px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #333;
+}

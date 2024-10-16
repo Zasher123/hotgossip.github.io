@@ -1,0 +1,346 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* nav bar */
+nav{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    padding: 15px;
+
+}
+.logo {
+    display: inline-block;
+    justify-self: center;
+    width: 75px;
+    height: 60px;
+    
+}
+
+.nav-bar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 5px;
+}
+
+.nav-bar li  {
+    display: inline-block;
+    Padding: 5px 15px;
+    text-align: center;
+    
+}
+
+.nav-bar a{
+    color: #fffcfc;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.nav-bar a:hover{
+    color: rgb(25, 173, 173);
+    transition: 0.5s;
+}
+
+.contact-top{
+    border: 1.5px solid #111;
+    border-radius: 5px;
+    margin: 30px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    text-align: center;
+    
+}
+
+
+
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #111;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 30px;
+    margin-top: 0px;
+    margin-bottom: 60px;
+}
+
+.contact-info {
+    width: 50%;
+    padding-left: 100px;
+    margin-top: 50px;
+    background-color: white;
+    margin-bottom: 150px;
+}
+
+.contact-info h3 {
+    margin-bottom: 30px;
+    font-size: 30px;;
+}
+
+.contact-info p {
+    margin: 0px 0;
+    font-size: 16px;
+
+}
+
+.icon-box {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bcd1e8;  /* Icon background color */
+    color: white;  /* Icon color */
+    border-radius: 5px; 
+    margin-right: 10px;  
+    margin-top: 30px;
+}
+
+.contact-details {
+    margin-top: 30px;
+    margin-left: 10px;  /* Space between icon and text */
+}
+
+.contact-details span {
+    display: block;  /* Stack the label and number vertically */
+    font-size: 16px; 
+}
+
+.contact-item {
+    display: flex;  /* Aligns the icon and text in a row */
+    align-items: flex-start ;
+    margin: 10px 0;  /* Adds space between contact items */
+}
+.contact-item span {
+    display: block;  /* Stack the label and number vertically */
+    font-size: 16px;  /* Adjust font size */
+}
+
+.social-media {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;  /* Stack "Follow" and icons vertically */
+    align-items: flex-start;  /* Align "Follow" text and icons to the left */
+
+}
+
+
+.social-media p {
+    margin-bottom: 20px;  
+    font-weight: bold;
+}
+
+.social-media-icons {
+    display: flex;  /* Aligns the social media icons horizontally */
+    gap: 10px;  /* Adds space between the icons */
+}
+
+
+.icon-box2 {
+    width: 40px;  /* Set a fixed width */
+    height: 40px;  /* Set a fixed height */
+    justify-content: center;
+    align-items: center;
+    background-color: #bcd1e8;  /* Background color for the icon box */
+    color: white;  /* Icon color */
+    border-radius: 5px;  
+    transition: 0.3s ease;  /* Smooth transition on hover */
+}
+
+.icon-box2 a {
+    display: flex;  /* Ensures the icon itself is treated as a flex item */
+    justify-content: center;  /* Horizontally center the icon */
+    align-items: center;  /* Vertically center the icon */
+    color: white;  
+    font-size: 20px;  
+    text-decoration: none;  /* Remove underline from links */
+    width: 100%;  /* Make sure the anchor takes full width of the icon box */
+    height: 100%; 
+}
+
+.social-media a {
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    align-items: center;
+}
+
+
+
+.contact-form {
+    width: 50%;
+    margin-top: 80px;
+    margin-bottom: 130px;
+    margin-right: 90px;
+    
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.contact-form label {
+    font-size: 16px;  
+    margin-bottom: 5px; 
+    font-weight: bold;  
+    color: #333;  
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    margin-bottom: 25px;  
+    padding: 15px; 
+    border: 1px solid #ccc;  
+    border-radius: 5px;  
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+button[type=submit] {
+    width: 20%;
+}
+
+.map-container {
+    margin-top: 30px;  /* Add some space between the form and the map */
+    margin-bottom: 120px;
+}
+
+.map-container iframe {
+    width: 100%;  /* Full width to adapt to the container */
+    height: 400px;  /* Set a fixed height */
+    border: 0;  /* Remove the iframe border */
+}
+
+@media (max-width: 768px) {
+    .map-container iframe {
+        height: 300px;  /* Make the map smaller on smaller screens */
+    }
+}
+
+
+
+
+
+/* Footer elements */
+
+footer{
+    border-radius: 5px;
+    border: 1px solid black;
+    position: relative;
+    
+}
+
+.logo1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 60px;
+    margin: 5px auto; /* Centering the logo horizontally */
+}
+
+
+
+footer ul{
+    display: flex;
+    align-items: center;
+    
+}
+
+footer ul li a{   
+    justify-content: space-between;
+    list-style-type: none;   
+    margin: 10px;
+}
+
+  footer ul {
+    justify-content: center;
+    list-style-type: none;
+    
+  }
+  
+  
+  footer ul li a {
+    color: #111;
+    text-decoration: none;
+    font-size: 1.1em;
+    opacity: 0.7;
+    transition: 0.5s;
+    
+  }
+
+ footer a:hover{
+    color: rgb(234, 9, 9);
+}
+
+/* social media icons */
+.social-icons {
+    display: flex;  /* Aligns the social media icons horizontally */
+    gap: 10px;  /* Adds space between the icons */
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.icon-box3 {
+    width: 30px;  /* Set a fixed width */
+    height: 30px;  /* Set a fixed height */
+    justify-content: center;
+    align-items: center;
+    background-color: #bcd1e8;  /* Background color for the icon box */
+    color: white;  /* Icon color */
+    border-radius: 5px;  
+    transition: 0.3s ease;  /* Smooth transition on hover */
+}
+
+.icon-box3 a {
+    display: flex;  /* Ensures the icon itself is treated as a flex item */
+    justify-content: center;  /* Horizontally center the icon */
+    align-items: center;  /* Vertically center the icon */
+    color: white;  
+    font-size: 20px;  
+    text-decoration: none;  
+    width: 100%;  /* Make sure the anchor takes full width of the icon box */
+    height: 100%; 
+}
+
+/*  Copy right and Terms & Conditions */
+  .footer-bottom{
+    border: 1px solid #ccc; 
+   border-radius: 5px; 
+   color: #fffcfc;
+   padding: 10px;
+   background-color: rgb(3, 3, 3); 
+   text-align: center;
+  
+  }
+
+
+  .footer-links {
+    margin-top: 5px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #333;
+}
